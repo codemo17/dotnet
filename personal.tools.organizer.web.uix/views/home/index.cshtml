@@ -1,0 +1,45 @@
+﻿ @using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, maxium-scale=1.0, minium-scale=1.0" />
+		<title>ruslan.prototype.test.interview</title>
+		<link rel="stylesheet" type="text/css" href="../../artifacts/styles/styles.css" />
+	    <!--[if lt IE 9]>
+	        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+       
+        <div class="page"></div>
+        <footer class="copyright">&copy; ruslan</footer>
+ 
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <!-- library files-->
+        @Scripts.Render("~/bundles/jquery",
+                        "~/bundles/jqueryui",
+                        "~/bundles/lib",
+                        "~/scripts/lib/require.js",
+                         "~/scripts/lib/text.js")
+     
+        <!--application files -->
+         @Scripts.Render(
+                        "~/bundles/app",
+                         "~/bundles/mocks",
+                         "~/scripts/main.js")
+  
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+     
+
+    </body>
+</html>

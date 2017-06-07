@@ -1,0 +1,144 @@
+﻿<UserControl x:Class="ruslan.prototype.test.app.views.contact"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:helpers="clr-namespace:ruslan.prototype.test.app.helpers"
+             xmlns:System="clr-namespace:System;assembly=mscorlib" mc:Ignorable="d" 
+             Width="400" Height="400"
+             MaxHeight="370" MaxWidth="400"
+             MinHeight="370" MinWidth="400"
+             d:DesignHeight="370" d:DesignWidth="400">
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+               <ResourceDictionary Source="/artifacts/skins/contact.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+   <Grid>
+        <ContentControl x:Name="LayoutRoot"  Style="{StaticResource roundedbox}" Width="400" Height="370">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="250"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="135"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="110"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Column="0" Grid.Row="0" Style="{StaticResource portrait}">
+                    <Image Width="110" Height="110" Source="{Binding model.photo, Mode=OneWay,NotifyOnSourceUpdated=True}" />
+                    
+                </Border>
+                <Grid Grid.Column="1" Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"/>
+                        <RowDefinition Height="45"/>
+                        <RowDefinition Height="45"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="150"/>
+                     </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource label}">name</Label>
+                    <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource label}">lastname</Label>
+                    <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource label}">date of birth</Label>
+                    <!--<ContentControl  Grid.Row="0" Grid.Column="1"  
+                        Style="{StaticResource txtboxrounded}" 
+                        Height="25" 
+                        Width="130" >
+                            <TextBox  Text="{Binding Path=model.name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,  NotifyOnValidationError=True, ValidatesOnDataErrors=True, ValidatesOnExceptions=True}" TabIndex="0"/>
+                    </ContentControl>-->
+                    <TextBox  Style="{StaticResource textboxwithvalidation}" Grid.Row="0" Grid.Column="1"  TabIndex="0">
+                        <TextBox.Text>
+                            
+                            <Binding Path="name" Mode="TwoWay"  
+                                     UpdateSourceTrigger="PropertyChanged"   
+                                     NotifyOnValidationError="True" 
+                                     ValidatesOnDataErrors="True" 
+                                     >
+                            <!--<Binding.ValidationRules>
+                                <helpers:alphacharsrequiredvalidationrule/>
+                            </Binding.ValidationRules>-->
+                           
+                        </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+
+                    <TextBox  Style="{StaticResource textboxwithvalidation}" Grid.Row="1" Grid.Column="1"  TabIndex="0">
+                        <TextBox.Text>
+                            <Binding Path="lastname" Mode="TwoWay"  
+                                     UpdateSourceTrigger="PropertyChanged"  
+                                     
+                                     NotifyOnValidationError="True" 
+                                     ValidatesOnDataErrors="True" 
+                                       >
+                                <!--<Binding.ValidationRules>
+                                    <helpers:alphacharsrequiredvalidationrule/>
+                                </Binding.ValidationRules>-->
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                        
+                    
+                      <Border Grid.Row="2" Grid.Column="1"
+                        Background="#fff"
+                        BorderBrush="#ada39a" 
+                        BorderThickness="1"
+                        HorizontalAlignment="Left"
+                        Height="25"
+                        Width="130"
+						CornerRadius="0,0,2,2"
+						KeyboardNavigation.IsTabStop="False">
+                        <Border.Resources>
+                            <Style  x:Key="displaymode" TargetType="{x:Type Calendar}">
+                                <Setter  Property="DisplayMode" Value="Year"/>
+                               
+                            </Style>
+
+                        </Border.Resources>
+                            <Border 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch"  
+                            BorderBrush="#d7d4ca" 
+                            BorderThickness="1,1,0,0"
+                            Background="#f3f3f3"
+                            Margin="0,0,1,1" 
+                            Padding="0"
+							CornerRadius="0,0,0,0"
+							KeyboardNavigation.IsTabStop="False"
+							KeyboardNavigation.TabNavigation="Continue">
+                           
+                                <DatePicker    CalendarStyle="{StaticResource displaymode}"  
+                                      BorderBrush="#817469"  
+                                      Background="Transparent" 
+                                      BorderThickness="0"  
+                                      Height="25" Width="130" 
+                                      SelectedDate="{Binding dateofbirth, Mode=TwoWay,  Converter={StaticResource datestringformatter}, NotifyOnSourceUpdated=True, NotifyOnValidationError=True,  ValidatesOnDataErrors=True}"  
+                                               TabIndex="3" >
+                                
+                            </DatePicker>
+
+                            </Border>
+                        </Border>
+                </Grid>
+                <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource buttonrounded}" Command="{Binding openfiledialogcommand}" Width="110" Height="20">browse</Button>
+                <TextBox  Grid.Row="2" Grid.ColumnSpan="2" DockPanel.Dock="Bottom" Height="80" Width="350" Style="{StaticResource textblock}" Text="{Binding model.bio,Mode=TwoWay,NotifyOnSourceUpdated=True}"></TextBox>
+                <StackPanel Grid.Row="3" Grid.ColumnSpan="2"  Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Button   Command="{Binding savecontactcommand, NotifyOnSourceUpdated=True,Mode=OneWay}" Style="{StaticResource buttonrounded}"    Width="60" Height="25" Margin="10 0">save</Button>
+                    <Button Style="{StaticResource buttonrounded}" Width="60" Height="25"  Margin="10 0" Command="{Binding clearcommand}">clear</Button>
+                    <Button Style="{StaticResource buttonrounded}" Width="60" Height="25"  Margin="10 0" Command="{Binding closecommand}">close</Button>
+
+                </StackPanel>
+             </Grid>
+           
+        </ContentControl>
+
+
+    </Grid>
+</UserControl>

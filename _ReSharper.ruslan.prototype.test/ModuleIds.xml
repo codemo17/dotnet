@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="E40E23BB-F357-465C-A7DB-D604D0E7CA0A" ModuleId="app" />
+  <Module PersistentId="A4C7C13B-6047-4441-9BB3-B0395048DA11" ModuleId="services" />
+  <Module PersistentId="7FB59735-0C80-4C43-83F4-695E882FE91A" ModuleId="infrastructure" />
+  <Module PersistentId="F8927236-4614-401B-BB01-140B24D72363" ModuleId="domain" />
+  <Module PersistentId="F874FA2A-CE82-4DF3-B81D-50DB1487CE8F" ModuleId="unit" />
+  <Module PersistentId="3014D551-7BFC-42CE-A4FE-E4D58045BBF5" ModuleId="api" />
+  <Module PersistentId="59B60A8C-310B-443E-B3FC-BA3965180D2F" ModuleId="web" />
+</Modules>

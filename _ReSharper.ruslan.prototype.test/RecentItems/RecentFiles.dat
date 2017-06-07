@@ -1,0 +1,66 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="E40E23BB-F357-465C-A7DB-D604D0E7CA0A/d:viewmodels/f:contact.cs" caret="0" fromTop="0" />
+    <File id="E40E23BB-F357-465C-A7DB-D604D0E7CA0A/d:viewmodels/f:main.cs" caret="0" fromTop="0" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.info.js" caret="162" fromTop="3" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:info.htm" caret="0" fromTop="0" />
+    <File id="E40E23BB-F357-465C-A7DB-D604D0E7CA0A/d:views/f:contactscollection.xaml" caret="0" fromTop="0" />
+    <File id="E40E23BB-F357-465C-A7DB-D604D0E7CA0A/d:artifacts/d:skins/f:contact.xaml" caret="11628" fromTop="0" />
+    <File id="E40E23BB-F357-465C-A7DB-D604D0E7CA0A/d:artifacts/d:skins/f:main.xaml" caret="1" fromTop="0" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:mocks/f:mocks.js" caret="0" fromTop="0" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/f:main.js" caret="0" fromTop="0" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:collections/f:my.contacts.js" caret="780" fromTop="23" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.view.js" caret="399" fromTop="18" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:helpers/f:region.js" caret="296" fromTop="12" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:collections/f:my.collection.js" caret="525" fromTop="16" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:contactrow.htm" caret="66" fromTop="1" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:mocks/f:mocks.contacts.js" caret="70" fromTop="3" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:mocks/f:mocks.generator.js" caret="1752" fromTop="18" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.main.js" caret="0" fromTop="0" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.navigator.js" caret="1147" fromTop="30" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.contactrow.js" caret="1164" fromTop="28" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.contacts.js" caret="1841" fromTop="14" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:views/d:home/f:index.cshtml" caret="869" fromTop="10" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:contact.htm" caret="429" fromTop="7" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:main.htm" caret="160" fromTop="4" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:contacts.htm" caret="386" fromTop="10" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:navigator.htm" caret="160" fromTop="2" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:artifacts/d:styles/f:styles.css" caret="1085" fromTop="4" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:routers/f:router.js" caret="372" fromTop="13" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.contact.js" caret="940" fromTop="18" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:models/f:my.contact.js" caret="342" fromTop="16" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/f:app.js" caret="1929" fromTop="35" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:services/f:dataservices.js" caret="131" fromTop="5" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:services/f:dataservices.contact.js" caret="707" fromTop="30" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:boilerplate/f:qunit.cshtml" caret="136" fromTop="5" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:tests/d:unit/d:collections/f:my.collection.js" caret="1119" fromTop="14" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:helpers/f:vent.js" caret="228" fromTop="12" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:lib/f:text.js" caret="436" fromTop="2" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.info.js" caret="162" fromTop="3" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:info.htm" caret="47" fromTop="2" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/f:main.js" caret="273" fromTop="11" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.main.js" caret="139" fromTop="1" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.navigator.js" caret="1022" fromTop="27" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:app_start/f:BundleConfig.cs" caret="1430" fromTop="12" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:contacts.htm" caret="351" fromTop="10" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:collections/f:my.collection.js" caret="525" fromTop="16" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:contactrow.htm" caret="66" fromTop="1" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:models/f:my.contact.js" caret="342" fromTop="16" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:collections/f:my.contacts.js" caret="780" fromTop="23" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:helpers/f:region.js" caret="296" fromTop="12" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.contactrow.js" caret="1164" fromTop="28" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.view.js" caret="301" fromTop="14" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.contacts.js" caret="1757" fromTop="9" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:contact.htm" caret="429" fromTop="7" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:mocks/f:mocks.generator.js" caret="1752" fromTop="27" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:views/d:home/f:index.cshtml" caret="869" fromTop="10" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:main.htm" caret="160" fromTop="7" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:templates/f:navigator.htm" caret="160" fromTop="2" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:artifacts/d:styles/f:styles.css" caret="1085" fromTop="4" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:routers/f:router.js" caret="372" fromTop="13" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/d:views/f:my.contact.js" caret="906" fromTop="16" />
+    <File id="59B60A8C-310B-443E-B3FC-BA3965180D2F/d:scripts/d:app/f:app.js" caret="1929" fromTop="35" />
+  </RecentEdits>
+</RecentFiles>

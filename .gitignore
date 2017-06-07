@@ -1,0 +1,53 @@
+#operation system realted junkies
+[Tt]humbs.db
+*.DS_Store
+
+#visual studio related junkies
+*.[Oo]bj
+*.exe
+*.pdb
+*.apc
+*._i.c
+*._p.c
+*.user
+*.vspscc
+*.vssscc
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+bin/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+
+node_modules/
+releaze/
+#project related junkies
+[Bb]uild
+
+#nuget related junkies
+packages/
+
+#resharper related junkies
+_ReShareper.*
+*.resharper
+
+#office related junkies
+~$*
+
+#vim related junknies
+*~
+*.swp
+*.swo
+

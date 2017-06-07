@@ -1,0 +1,50 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>dataservices.contact</title>
+        <link rel="stylesheet" href="qunit/qunit.css">
+    </head>
+    <body>
+        <h1 id="qunit-header">MyApp Test Suite</h1>
+        <h2 id="qunit-banner"></h2>
+        <div id="qunit-testrunner-toolbar"></div>
+        <h2 id="qunit-userAgent"></h2>
+        <ol id="qunit-tests"></ol>
+        <div id="qunit-fixture"></div>
+        
+      <!-- library files-->
+        @Scripts.Render("~/bundles/jquery",
+                        "~/bundles/lib",
+                        "~/scripts/lib/require.js")
+        
+        
+        <script src="qunit/qunit.js"></script>
+        
+        <script type="text/javascript">
+
+            window.definesaved = window.define;
+
+            window.define = function (a, b, c) {
+                a === 'sut' ? window.sut = c : definesaved(a, b, c);
+            };
+
+
+        </script>
+        
+        <script type="text/javascript" src="~/scripts/app/sut.js" ></script>
+       @Scripts.Render("~/bundles/mocks")
+        <script type="text/javascript" src="main.js" ></script>
+        <script type="text/javascript" src="sut.test.js"></script>
+         <script type="text/javascript">
+
+             require(['sut']);
+
+        </script>
+
+
+    
+        
+    </body>
+</html>

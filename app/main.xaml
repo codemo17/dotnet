@@ -1,0 +1,61 @@
+﻿<Window x:Class="ruslan.prototype.test.app.mainview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:app="clr-namespace:ruslan.prototype.test.app"
+        xmlns:helpers="clr-namespace:ruslan.prototype.test.app.helpers" Title="main" 
+        MinHeight="550" MinWidth="500"
+        Height="550"    Width="500"
+        
+        DataContext="{Binding Path=main,Source={StaticResource bootstrapper}}">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/artifacts/skins/main.xaml"/>
+        </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel 
+        Background="{StaticResource background}">
+        <Border
+            DockPanel.Dock="Top"
+            Padding="10"
+            Margin="0"
+            >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="300"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+
+                <Image Source="{Binding icon}" Height="{Binding iconheight}" Width="{Binding iconwidth}" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                <ListBox Grid.Column="1"
+                         Style="{x:Null}"
+                         SelectedIndex="{Binding selected,Mode=TwoWay}"     
+                         Background="Transparent"
+                         BorderBrush="Transparent"
+                         ItemsSource="{Binding pages}"
+                         ItemsPanel="{StaticResource menu}"
+                         ItemContainerStyle="{StaticResource menuitemcontainer}"
+                         helpers:ClickBehavior.ClickBehavior="{Binding navigatecommand}"
+                         helpers:ClickBehavior.Clicked="{Binding RelativeSource={RelativeSource Self},Path=SelectedValue}"
+                     />
+
+            </Grid>
+        </Border>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="500"/>
+            </Grid.ColumnDefinitions>
+            <ContentControl  Grid.Column="0"  VerticalAlignment="Top"  HorizontalAlignment="Center"  Content="{Binding content}"/>
+           
+
+
+        </Grid>
+
+
+
+    </DockPanel>
+</Window>

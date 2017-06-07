@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<contacts>
+
+  <contact
+      id="{24ddf8a9-a4b7-4ced-a114-7ebcc011f35e}"
+      name="john"
+      lastname ="nash"
+      dateofbirth ="13-07-1928"
+  />
+
+  <contact
+      id="{33ccf3a9-b3b7-4bed-a114-7ebcc011f11e}"
+      name="albert"
+      lastname ="einstein"
+      dateofbirth ="14-03-1879"
+  />
+
+
+  <contact
+      id="{76ddf9a1-a4b7-3ced-a114-7ebcc011f22e}"
+      name="isaac"
+      lastname ="newton"
+      dateofbirth ="25-12-1642"
+  />
+</contacts>
