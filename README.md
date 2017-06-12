@@ -1,4 +1,4 @@
-## Domin Driven Design exemplary code 
+## Domain Driven Design exemplary code 
 
 Exemplary code to demonstrate applicability of DDD/TDD in building fullstack applicaiton 
 
